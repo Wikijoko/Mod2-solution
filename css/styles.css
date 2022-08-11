@@ -1,0 +1,82 @@
+* {
+	box-sizing: border-box;
+}
+h1 {
+	color: blue;
+	text-align: center;
+}
+.row {
+	width: 100%;
+}
+@media (min-width: 992px) {
+	.col-lg-3
+	{
+	background-color: gray;
+	border: 1px solid black;
+	margin: 5px;
+	padding: 50px 20px 20px 20px;
+	float: left;
+	position: relative;
+}
+	.col-lg-3 {
+		width: 32%;
+	}
+}
+.tittle {
+	position: absolute;
+	margin-top: 0px;
+	top: 0px;
+	right: 0px;
+	padding: 5px;
+	background-color: red;
+	border: 1px solid black;
+	border-top: 0px;
+	border-right: 0px;
+}
+.tittle2 {
+	position: absolute;
+	margin-top: 0px;
+	top: 0px;
+	right: 0px;
+	padding: 5px;
+	background-color: yellow;
+	border: 1px solid black;
+	border-top: 0px;
+	border-right: 0px;
+}
+.tittle3 {
+	position: absolute;
+	margin-top: 0px;
+	top: 0px;
+	right: 0px;
+	padding: 5px;
+	background-color: blue;
+	border: 1px solid black;
+	border-top: 0px;
+	border-right: 0px;
+	color: white;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-2 {
+		background-color: gray;
+		border: 1px solid black;
+		margin: 5px;
+		padding: 50px 20px 20px 20px;
+		float: left;
+		position: relative;
+		width: 48%
+	}
+}
+
+@media (max-width: 767px) {
+	.col-sm-1 {
+		background-color: gray;
+		border: 1px solid black;
+		margin: 5px;
+		padding: 50px 20px 20px 20px;
+		float: left;
+		position: relative;
+		width: 98%
+	}
+}
